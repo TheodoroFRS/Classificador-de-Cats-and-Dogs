@@ -33,7 +33,7 @@ uploaded_image = st.file_uploader("Envie uma imagem de um gato ou cachorro", typ
 # Inferência e exibição de resultado
 if uploaded_image is not None:
     # Mostrar a imagem carregada
-    st.image(uploaded_image, caption="Imagem carregada", use_column_width=True)
+    st.image(uploaded_image, caption="Imagem carregada", use_container_width=True)
 
     # Processar a imagem
     img_array = process_image(uploaded_image)
