@@ -4,6 +4,8 @@ from tensorflow.keras.preprocessing.image import img_to_array
 from PIL import Image
 import numpy as np
 
+# Link do CoLab: https://colab.research.google.com/drive/110ehTpsjB63QKmAItWId3RxV_zwWwRfS#scrollTo=NEr5oL5Xc6V5
+
 # pip install streamlit pandas tensorflow numpy
 
 # Congiguração da página
